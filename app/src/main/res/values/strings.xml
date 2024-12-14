@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyTrainingSession</string>
+    <string name="exit_menu_text">Выход</string>
+
+</resources>

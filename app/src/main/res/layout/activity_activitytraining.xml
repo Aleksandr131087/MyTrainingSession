@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitytraining"
+    android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarTraining"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Тренировки по фитнесу"
+        android:background="@color/purple"
+        app:titleTextColor="@color/white"/>
+    <TextView
+        android:id="@+id/titleTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Тренировка"
+        android:gravity="center"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Начало тренировки"
+        android:backgroundTint="@color/purple"
+        android:textSize="24dp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/excerciseTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Упражнение"
+        android:gravity="center"
+        android:textSize="26dp"
+        android:layout_marginTop="16dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/descriptionTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textSize="16dp"
+        android:layout_marginTop="16dp" />
+    <TextView
+        android:id="@+id/timerTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Оставшееся время"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:layout_marginTop="16dp" />
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Продолжить"
+        android:backgroundTint="@color/purple"
+        android:textSize="24dp"
+        android:layout_marginTop="16dp"
+        android:enabled="false"/>
+
+<pl.droidsonroids.gif.GifImageView
+    android:id="@+id/imageViewIV"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="16dp"/>
+
+</LinearLayout>
